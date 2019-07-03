@@ -2,10 +2,10 @@ import {Component, OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-list',
-  templateUrl: './list.component.html',
-  styleUrls: ['./list.component.scss']
+  templateUrl: './listing.component.html',
+  styleUrls: ['./listing.component.scss']
 })
-export class ListComponent implements OnInit {
+export class ListingComponent implements OnInit {
 
   task = {
     name: '',

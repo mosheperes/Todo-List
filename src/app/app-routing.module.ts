@@ -1,10 +1,10 @@
 import {NgModule} from '@angular/core';
 import {Routes, RouterModule} from '@angular/router';
-import {ListComponent} from './list/list.component';
+import {ListingComponent} from './list/listing.component';
 
 const routes: Routes = [
-  {path: 'home', component: ListComponent},
-  {path: '**', component: ListComponent}
+  {path: 'home', component: ListingComponent},
+  {path: '**', component: ListingComponent}
 ];
 
 @NgModule({
